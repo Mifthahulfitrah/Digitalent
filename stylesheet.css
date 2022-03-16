@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: "Lucida Grande";
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .clear {
+    clear: left;
+  }
+  
+  .container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  
+.main{
+    height: 100px;
+    margin-top: 100px;
+    padding: 30px;
+}
+  
+  .top-wrapper h1 {
+    opacity: 0.7;
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .top-wrapper p {
+    opacity: 0.7;
+    margin-bottom: 3px;
+  }
+  
+  
+  
+  .fa {
+    margin-right: 5px;
+  }
+  
+  header {
+    height: 100px;
+    width: 100%;
+    background-color: rgba(140, 152, 155, 0.9);
+    position :fixed;
+    top: 0;
+    z-index: 10;
+  }
+  
+  .logo {
+    width: 124px;
+    margin-top: 20px;
+  }
+  
+  .header-left {
+    float: left;
+  }
+  
+  .logo {
+    width: 40px;
+    color: white;
+    margin-top: 10px;
+  }
+  
+  .lesson-wrapper {
+      margin-top: 600px;
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #f7f7f7;
+    text-align: center;
+  }
+  
+  .heading {
+    padding-top: 30px;
+    padding-bottom: 50px;
+    color: #5f5d60;
+  }
+  
+  .heading h2 {
+    font-weight: normal;
+  }
+  
+  .covid {
+    width: 300px;
+    -webkit-transition: -webkit-transform 1.1s ease-in-out;
+    transition: transform 1.1s ease-in-out;
+  }
+
+    .covid:hover{
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    }
+  .lesson {
+    float: left;
+    width: 25%;
+  }
+  
+  .lesson-icon {
+    position: relative;
+    width: 25%;
+  }
+
+  .lesson-icon p {
+    position: absolute;
+  top: 10%;
+  width: 100%;
+  color: black;
+  }
+  
+  .text-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 15px;
+    color: #b3aeb5;
+  }
+  
+  
+  footer img {
+    width: 125px;
+  }
+  
+  footer p {
+    color: #b3aeb5;
+    font-size: 12px;
+  }
+
+
+  footer {
+    margin-top: 30px;
+    height: 230px;
+    background-color: #b4e1ff;
+    padding: 40px;
+    color: rgb(0, 0, 0);
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+  
+  .footer-logo {
+    font-size: 20px;
+    padding-top: 50px;
+    padding-left: 30px;
+    
+  }
+  .footer-list {
+    text-align: center;
+  }
+  
+  .footer img {
+    width: 100px;
+    float: left;
+    padding-left: 50px;
+    
+  }
